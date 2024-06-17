@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <input id="Poutval" type="text" placeholder="Pout">
+        <input id="Bav" type="text" placeholder="Bav">
+        <input id="q" type="text" placeholder="q">
+        <input id="speed" type="text" placeholder="speed(RPM)">
+        <input id="poles" type="text" placeholder="Pole">
+        <input id="volt" type="text" placeholder="Voltage">
+        <input id="polepitch" type="text" placeholder="Pole Pitch">
+        <!-- <input id="flux" type="text" placeholder="flux"> -->
+        <label for="source">Select a source</label>
+        <select name="" id="source">
+            <option value="gen">generator</option>
+            <option value="motor">motor</option>
+        </select>
+        <button id="submit">Submit</button>
+    <div class="info">
+        <p id="D"></p>
+        <p id="L"></p>
+        <p id="state"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
